@@ -1,0 +1,393 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /* font-family: 'PT Sans', sans-serif; */
+}
+
+.atf {
+    height: 100vh;
+    background-image: url('./img/header.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    justify-content: space-evenly;
+}
+
+header img {
+    width: 100px;
+}
+
+.logo_oben:hover {
+    filter: drop-shadow(0px 0px 3px #ffff);
+
+}
+
+nav {
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+nav a {
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    padding-right: 60px;
+}
+
+nav a:hover {
+    color: #B48A4E;
+}
+
+.nav_socials img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav_socials img:hover {
+    filter: drop-shadow(0px 0px 3px #ffff);
+    cursor: pointer;
+}
+
+.sub_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub_header h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-family: 'Viga', sans-serif;
+    margin-top: 150px;
+    font-size: 100px;
+    font-weight: lighter;
+    color: white;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.sub_header div {
+    color: white;
+    word-spacing: 10px;
+    font-size: 30px;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    background-color: #B48A4E;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.button:hover {
+    filter: drop-shadow(0px 0px 4px #ffff);
+}
+
+.margin-top {
+    margin-top: 90px;
+}
+
+/* ------------------------------------------------------- */
+
+.container2 /* secion-quicklinks */ {
+    background-color: black;
+    padding: 80px 80px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container2 a /* quicklinks */ {
+    color: #B48A4E;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* width: 30%; */
+    /* flex: 1; to be discussed with designer */
+}
+
+.container2 img /* quicklinks img */ {
+    width: 400px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+}
+
+.news {
+    display: flex;
+}
+
+.news:hover {
+    filter: drop-shadow(0px 0px 20px #ffff);
+}
+
+.album {
+    display: flex;
+}
+
+.album:hover {
+    filter: drop-shadow(0px 0px 20px #ffff);
+
+}
+
+.store {
+    display: flex;
+}
+
+.store:hover {
+    filter: drop-shadow(0px 0px 20px #ffff);
+
+}
+
+/* ------------------------------------------------- */
+.buy_ticket_section {
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+}
+
+.festival_info {
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(188, 188, 188);
+    flex-grow: 1;
+}
+
+.festival_info h2 {
+    margin-block-start: 0;
+}
+
+.seperator {
+   
+    margin-top: 70px;
+    background-color: rgb(188, 188, 188);
+    width: 2px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.buy_ticket_container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 40px;
+}
+
+.buyTicket_button {
+    color: white;
+    text-decoration: none;
+    background-color: #B48A4E;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.buyTicket_button:hover {
+    filter: drop-shadow(0px 0px 3px #ffff);
+}
+
+.slogan_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B48A4E;
+}
+
+.slogan_section div {
+    padding: 80px 80px;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* ---------------------------------------- */
+
+.video_section {
+    background-image: url('./img/bottom.png');
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+}
+
+/* ------------------------------------------------ */
+
+footer {
+    display: flex;
+    padding: 80px 80px;
+    color: white;
+    background-color: black;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.footer_socials_icons {
+    width: 32px;
+}
+
+.footer_socials_icons:hover {
+    filter: drop-shadow(0px 0px 6px #ffff);
+
+}
+
+.fs-medium {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer-center {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 16px;
+}
+
+.flex-direction-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_email {
+    display: flex;
+}
+
+.input {
+    height: 36px;
+    width: 200px;
+}
+
+.border-width {
+    border-width: 0;
+    width: 100px;
+}
+
+input::placeholder {
+    color: #b4894e8f;
+    padding-left: 40px;
+}
+
+
+
+@media(max-width: 1000px) { 
+.hide-mobile {
+    display: none;
+}
+
+.sub_header h1{
+    font-size: 48px;
+}
+
+.sub_header div {
+    font-size: 24px;
+}
+
+
+
+
+}
+
+@media (max-width: 1400px) {
+    .container2 {
+            flex-direction: row;
+    }
+    
+    .container2 img {
+    width: 250px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container2 {
+        align-items: center;
+            flex-direction: column;
+            gap: 100px;
+            height: 150vh;
+    
+    }
+    
+    .container2 img {
+        width: 500;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        
+    }
+
+    .buy_ticket_section {
+        
+        flex-direction: column;
+    }
+
+    .buy_ticket_section img {
+        object-fit: cover;
+        height: 400px;
+        width: 100%;
+    }
+
+    .festival_info {
+        padding: 40px;
+        height: 200px;
+        flex: 1;
+        text-align: center;
+    }
+
+    .slogan_section {
+        text-align: center;
+    }
+
+    .seperator {
+        display: none;
+        /* width: 200px;
+        height: 1px;
+        margin-right: 0px;
+        margin-bottom: 16px; */
+    }
+
+    .buy_ticket_container {
+        padding-bottom: 40px;
+        /* align-items: center; */
+        justify-content: center;
+        width: 80%;
+    }
+
+    
+}
+
+@media (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left {
+        text-align: center;
+        margin-bottom: 32px;
+        margin-left: 0px;
+    }
+}
